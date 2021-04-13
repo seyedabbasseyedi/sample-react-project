@@ -1,0 +1,45 @@
+@import "./default.less";
+@import "./fonts.less";
+
+body {
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+td.ltrDir {
+  direction: ltr;
+}
+
+.ant-layout-header img {
+  height: 50px;
+  filter: brightness(0) invert(1);
+}
+
+.ant-layout-content {
+  min-height: calc(100vh - 110px);
+}
+
+.ant-layout-footer {
+  padding: 14px 15px 10px;
+  text-align: center;
+  color: #aaa;
+  background: #555;
+}
+
+.loginForm {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.ant-form-rtl .ant-form-item-label {
+  text-align: right;
+}
